@@ -1,14 +1,10 @@
-// Java Program to convert Array to LinkedList
 
-// Importing array, List & LinkedList, Collections classes
-// from java.util package
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
-import java.util.List;
+
 
 // Class
-public class GFG {
+public class ArrayToLinkedList {
 
 	// Main driver method
 	public static void main(String[] args)
