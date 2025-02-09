@@ -1,0 +1,32 @@
+// Java Program to convert Array to LinkedList
+
+// Importing array, List & LinkedList, Collections classes
+// from java.util package
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+// Class
+public class GFG {
+
+	// Main driver method
+	public static void main(String[] args)
+	{
+
+		// Create an Array
+		// here string type
+		String[] strArr = { "G", "E", "E", "K", "S" };
+
+		// Create an empty LinkedList
+		LinkedList<String> linkedList
+			= new LinkedList<String>();
+
+		// Append all elements of array to linked list
+		// using Collections.addAll() method
+		Collections.addAll(linkedList, strArr);
+
+		// Print the above LinkedList received
+		System.out.println("Converted LinkedList : "+linkedList);
+	}
+}
